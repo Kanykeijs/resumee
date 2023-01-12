@@ -1,0 +1,135 @@
+.container {
+  max-width: 1200px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.container__block_first {
+  width: 400px;
+  height: auto;
+  background-color: rgb(245, 241, 241);
+}
+.container__block_first img {
+  width: 150px;
+  height: 150px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border: 0;
+  border-radius: 100%;
+}
+.container__block_second {
+  width: 800px;
+  height: auto;
+  background-color: white;
+  line-height: 100%;
+  margin-bottom: 200px;
+}
+.container__block_second h2 {
+  color: gray;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.container__block_second h1 {
+  color: orange;
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.container__block_second h3 {
+  color: gray;
+  margin-bottom: 100px;
+  margin-left: 55px;
+}
+.icons__block {
+  margin-left: 500px;
+  text-align: right;
+  font-size: 25px;
+}
+.container__block_second-div {
+  width: 100px;
+  height: 80px;
+  margin-left: 55px;
+  color: gray;
+}
+.container__block_second-div h5 {
+  font-size: 20px;
+}
+.container__block_second-divs {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  margin-top: 100px;
+  margin-left: 55px;
+  line-height: 200%;
+  color: gray;
+}
+.container__block_first-div {
+  margin-top: 250px;
+  text-align: right;
+  margin-right: 55px;
+  color: gray;
+}
+.container__content {
+  text-align: right;
+  margin-right: 55px;
+  color: gray;
+  margin-top: 335px;
+}
+/* start big content */
+.content__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.content__block_text {
+  height: 100px;
+  margin-left: 5px;
+  color: gray;
+}
+.content__block_text h5 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.content__block_text p {
+  line-height: 150%;
+  width: 350px;
+}
+.container__content_block {
+  text-align: right;
+  margin-right: 55px;
+  color: gray;
+  margin-top: 635px;
+}
+/* end big content */
+/* start skills */
+.skills {
+  margin-top: 200px;
+}
+.skills__block {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+.skills__block_div {
+  display: flex;
+  width: 350px;
+  justify-content: flex-start;
+  border-bottom: orange 3px solid;
+}
+.skills__block_div h4 {
+  font-size: 20px;
+  color: orange;
+}
+.skills__block_div h5 {
+  font-size: 16px;
+  margin-left: 10px;
+  color: gray;
+}
+/* end skills */
